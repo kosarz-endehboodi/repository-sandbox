@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/2786cce0cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <script src="src/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col back">
+        <!--header -->
+        <div class="header">
+          <!--icon logo-->
+          <div class="logo"><span class="fa fa-sun"></span></div>
+          <!--searchbar-->
+          <div class="search">
+            <input type="text" /><span class="fa fa-search"></span>
+          </div>
+          <!--menu -->
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <!--menu hover show li-->
+          </div>
+        </div>
+
+        <div class="row" id="rowSize  backgroundImage">
+          <!--day clock -->
+          <div class="col">
+            <h1 id="clock">12:30 <span>pm</span></h1>
+            <h5 id="dayMM">tue,23may,2023</h5>
+            <div id="degres"><span>mon</span><span>20° / 38°</span></div>
+
+            <div id="week">
+              <div>
+                <h5>today</h5>
+                <p>20°/30°</p>
+              </div>
+              <div>
+                <h5>sun</h5>
+                <p>20°/30°</p>
+              </div>
+              <div>
+                <h5>wed</h5>
+                <p>20°/30°</p>
+              </div>
+            </div>
+          </div>
+          <!--location/////weather info-->
+          <div class="col">
+            <!--location-->
+            <div class="location">
+              <div><span>bushehr,iran</span><span> 25°/35°</span></div>
+              <div><span>fair</span></div>
+              <button id="selectLocation">Change city</button>
+            </div>
+
+            <div class="row">
+              <!--info weather-->
+              <div class="weatherInfo text-center">
+                <div class="row row-cols-2">
+                  <div class="col">
+                    <img src="images/vu.jpg" alt="" />
+                    <p>UV index</p>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="images/kisspng-moisture-humidity-system-computer-icons-air-condit-heat-stroke-5b0f5d59559857.9020450115277335933506.png"
+                      alt=""
+                    />
+                    <p>humidity</p>
+                  </div>
+                  <div class="col">
+                    <img src="images/sunrise-forecast.png" alt="" />
+                    <p>sunset-sunrise</p>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="images/pngtree-vector-wind-icon-png-image_924484.jpg"
+                      alt=""
+                    />
+                    <p>wind</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="daysin">
+            <div class="col part">
+              <div class="row allmenu">
+                <div id="today">
+                  <div>
+                    <span>2:30</span>
+                    <span class="fa fa-sun"></span>
+                    <span>33°</span>
+                  </div>
+                  <div>
+                    <span>2:30</span>
+                    <span class="fa fa-sun"></span>
+                    <span>33°</span>
+                  </div>
+                  <div>
+                    <span>2:30</span>
+                    <span class="fa fa-sun"></span>
+                    <span>33°</span>
+                  </div>
+                  <div>
+                    <span>2:30</span>
+                    <span class="fa fa-sun"></span>
+                    <span>33°</span>
+                  </div>
+                  <div>
+                    <span>2:30</span>
+                    <span class="fa fa-sun"></span>
+                    <span>33°</span>
+                  </div>
+                  <div>
+                    <span>20:30</span>
+                    <span class="fa fa-wind"></span>
+                    <span>33°</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
